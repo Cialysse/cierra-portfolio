@@ -1,13 +1,88 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  color: #2a47b6;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.wrapper {
+  padding: 10px 30px;
+  display: flex;
+  align-items: inherit;
+  justify-content: space-between;
+}
+
+.home .logo {
+font-size: 40px;
+font-weight: 700;
+}
+
+/* Contact Styling */
+.contact {
+  background-color: #b67494;
+  width: 100vw;
+  height: calc(100% - 70px);
+  
+}
+
+/* Works Styling */
+.works {
+  background-color: #857699;
+  width: 100vw;
+  height: calc(100% - 70px);
+  
+}
+
+/* Portfolio Styling */
+.portfolio {
+  background-color: #ab6c9b;
+  width: 100vw;
+  height: calc(100% - 70px);
+  
+}
+
+/* Introduction */
+.intro {
+  background-color: #909dcb;
+  width: 100vw;
+  height: calc(100% - 70px);
+  
+}
+
+/* App Styling */
+.app {
+  height: 100vh;
+}
+
+.sections {
+  width: 100%; 
+  height: calc(100% - 70px);
+  background-color: #9faee9;
+  position: relative;
+  top: 70px; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+
+
+
